@@ -9,17 +9,17 @@ body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
     font-family: Montserrat, sans-serif;
-        letter-spacing: -0.015em;
-        font-size: 18px;
-        line-height: 1.67;
+    letter-spacing: -0.015em;
+    font-size: 18px;
+    line-height: 1.67;
 }
 
 .logo {
     color: var(--title-text-color);
     font-family: Comfortaa, cursive;
-            font-size: 28px;
-        line-height: 1.14;
-        text-decoration: none;
+    font-size: 28px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 
 .logo:hover {
@@ -31,13 +31,13 @@ body {
 .site-nav .link {
     color: var(--accent-color);
     font-weight: 500;
-        font-size: 15px;
-        line-height: 1.2;
-        text-decoration: none;
+    font-size: 15px;
+    line-height: 1.2;
+    text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link:hover {
     color: var(--title-text-color);
 }
 
@@ -54,9 +54,9 @@ body {
 .hero-title {
     color: var(--title-text-color);
     font-weight: 400;
-        font-size: 56px;
-        line-height: 1.43;
-        text-align: center;
+    font-size: 56px;
+    line-height: 1.43;
+    text-align: center;
 }
 
 /* Section */
@@ -64,9 +64,9 @@ body {
 .section-title {
     color: var(--title-text-color);
     font-weight: 400;
-        font-size: 48px;
-        line-height: 1.5;
-        text-align: center;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
 }
 
 .section-description {
@@ -91,9 +91,9 @@ body {
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
     font-weight: 500;
-        font-size: 15px;
-        line-height: 1.2;
-        text-decoration: none;
+    font-size: 15px;
+    line-height: 1.2;
+    text-decoration: none;
 }
 
 .button.primary {
