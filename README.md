@@ -1,25 +1,9 @@
 # wt-practice-e04-e05
 
-<!-- text-alight  -->
-<!-- vertical-alight  -->
-<!-- text-decoration  -->
-<!-- text-transform  -->
-<!-- text-shadow -->
-<!-- letter-spacing  -->
-<!-- text-indent  -->
-<!-- line-height  -->
-<!-- word-spacing  -->
-<!-- font-family  -->
-<!-- font-style -->
-<!-- font-weight  -->
-<!-- font-size  -->
+[Макет](https://www.figma.com/file/4ARSHk4HxeK4JyplXevvIf/Wireframing-in-Figma?type=design&node-id=0-817&mode=design&t=2ojF3DJI6PRg6J0e-0)
 
-<!-- Google fonts  -->
+[Google fonts](https://fonts.google.com/)
 
-<!-- System font stack -->
+[System font stack] (https://devhints.io/css-system-font-stack)
 
-(https://devhints.io/css-system-font-stack
-
-https://systemfontstack.com/
-
-)
+[CSS system fonts cheatsheet](https://systemfontstack.com/)
