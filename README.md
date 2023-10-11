@@ -4,6 +4,6 @@
 
 [Google fonts](https://fonts.google.com/)
 
-[System font stack] (https://devhints.io/css-system-font-stack)
+[System font stack](https://devhints.io/css-system-font-stack)
 
 [CSS system fonts cheatsheet](https://systemfontstack.com/)
