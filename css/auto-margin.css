@@ -1,0 +1,47 @@
+.box,
+.container,
+.group-1,
+.group-2,
+.group-3,
+.group-4 {
+    display: flex;
+    padding: 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.container {
+    border-color: rgb(229, 6, 229); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+    /* justify-content: space-between; */
+}
+
+.group-1 {
+    border-color: orange;
+}
+
+.group-2 {
+    border-color: blue;
+}
+
+.group-3{
+    border-color: red;
+    /* margin-left: auto; */
+}
+
+.group-4 {
+    border-color: green;
+    /* margin-left: auto; */
+}
+
+.box{
+    margin-left: 4px;
+    margin-right: 4px;
+    border-color: brown;
+    font-weight: 700;
+}

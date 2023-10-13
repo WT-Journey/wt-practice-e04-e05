@@ -14,14 +14,6 @@ body {
     line-height: 1.67;
 }
 
-/* Utilities */
-
-.list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -47,42 +39,11 @@ body {
 
 /* Page header */
 
-/* Main navigation */
+/* Main nav */
 
-.main-nav {
-    display: flex;
-    align-items: center;
-}
-
-/* Site navigation */
-
-.site-nav {
-    display: flex;
-    margin-left: 70px;
-}
-
-.site-nav .item {
-    /* background-color: tomato; */
-    /* margin-right: 40px; */
-}
-
-/* .site-nav .item:last-child{
-    margin-right: 0;
-} */
-
-/* .site-nav .item:not(:last-child){
-    margin-right: 40px;
-} */
-
-.site-nav .item + .item {
-    margin-left: 40px;
-}
+/* Site nav */
 
 .site-nav .link {
-    display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
-
     color: var(--accent-color);
     font-weight: 500;
     font-size: 15px;
@@ -99,16 +60,13 @@ body {
     color: var(--title-text-color);
 }
 
-/* Auth navigation */
-
-.auth-nav {
-    display: flex;
-    margin-left: auto;
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
-.auth-nav .item + .item {
-    margin-left: 12px;
-}
+/* Auth nav */
 
 /* Hero */
 
@@ -119,7 +77,6 @@ body {
 .hero-title {
     margin-top: 0;
     margin-bottom: 40px;
-
     color: var(--title-text-color);
     font-weight: 400;
     font-size: 56px;
@@ -141,7 +98,6 @@ body {
 .section-title {
     margin-top: 0;
     margin-bottom: 60px;
-
     color: var(--title-text-color);
     font-weight: 400;
     font-size: 48px;
@@ -149,7 +105,6 @@ body {
 
 }
 
-.section-description.centered,
 .section-title.centered {
     text-align: center;
 }
@@ -163,69 +118,19 @@ body {
 
 /* Features и Examples */
 
-.feature-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -40px -75px;
-}
-
-.feature-list .item {
-    width: 625px;
-    margin: 40px 75px;
-}
-
-.feature-list .title,
-.work-list .title {
-    margin-top: 0;
-    margin-bottom: 24px;
-    color: var(--title-text-color);
-
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.5;
-}
-
-/* Works */
-
-.work-list > .item {
-    display: flex;
-    align-items: center;
+.work-list>.item {
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: var(--primary-white-color);
 }
 
-.work-list > .item:nth-child(2n) {
-    flex-direction: row-reverse;
+.work-list>.item:nth-child(2n) {
     background-color: var(--secondary-bg-color);
 }
 
 .feature-list p {
     margin-top: 0;
     margin-bottom: 32px;
-}
-
-.work-list > .item:nth-child(2n + 1) > .content {
-    margin-left: 84px;
-}
-
-.work-list > .item:nth-child(2n) > .content {
-    margin-right: 84px;
-}
-
-/* Clients */
-
-.client-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1020px;
-    margin: -30px -40px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.client-list li {
-    margin: 30px 40px;
 }
 
 /* Button */
@@ -266,7 +171,7 @@ body {
     line-height: 1.6;
 }
 
-.social > .label {
+.social>.label {
     font-size: 15px;
     line-height: 1.6;
 }
