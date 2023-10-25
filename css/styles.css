@@ -61,11 +61,6 @@ body {
     margin-left: 70px;
 }
 
-.site-nav .item {
-    /* background-color: tomato; */
-    /* margin-right: 40px; */
-}
-
 /* .site-nav .item:last-child{
     margin-right: 0;
 } */
@@ -269,4 +264,21 @@ body {
 .social > .label {
     font-size: 15px;
     line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.thumb {
+    border: 10px solid green;
+    border-radius: 50px;
+    width: 480px;
+
+    overflow: hidden;
 }
