@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.page-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    min-height: 80px;
+    background-color: rgba(0, 200, 255, 1);
+    outline: 1px solid black;
+}
+
+p {
+    user-select: none;
+}
+
+a{
+    display: block;
+    margin-top: 20px;
+}

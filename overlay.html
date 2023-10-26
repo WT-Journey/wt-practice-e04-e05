@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Картка товару з іконками та оверлей</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/overlay.css" />
+</head>
+<body>
+<a href="/index.html">Назад на головну</a>
+
+<article class="product">
+    <div class="product-thumb">
+    <img src="https://images.pexels.com/photos/2456420/pexels-photo-2456420.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        alt="Кава" />
+
+    <!-- div а не ul, щоб вам було менше розмітки розбирати -->
+    <div class="product-actions">
+        <button aria-label="До обраного" class="item">
+            <svg class="icon">
+                <use href="./images/sprite.svg#star"></use>
+            </svg>
+        </button>
+
+        <button aria-label="Написати відгук" class="item">
+            <svg class="icon">
+                <use href="./images/sprite.svg#edit"></use>
+            </svg>
+        </button>
+
+        <button aria-label="До закладок" class="item">
+            <svg class="icon">
+                <use href="./images/sprite.svg#home"></use>
+            </svg>
+        </button>
+    </div>
+
+<!-- <div class="box-1"></div>
+<div class="box-2"></div> -->
+</div>
+
+    <div class="product-meta">
+        <h2 class="product-name">Чашка кави</h2>
+        <p class="product-price">Вартість: 100 кредитів</p>
+    </div>
+</article>
+</body>
+</html>
